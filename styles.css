@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+.navbar a, i, p {
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #F3DEBA;
+}
+
+.navbar {
+    background-color: #675D50;
+    color: #F3DEBA;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.nav-icono {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+
+
+
+
+
+/* QUIENES SOMOS */
+
+.quienes-somos {
+    padding: 60px 0px;
+    background-color: #ABC4AA;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quienes-somos h1 {
+    font-size: 400%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+    color: #675D50; 
+}
+
+.quienes-somos h2 {
+    font-size: 230%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+    color: #675D50; 
+}
+
+.quienes-somos h3 {
+    font-size: 230%;
+    display: flex;
+    width: 100%;
+    margin: 30px 10px;
+    justify-content: center;
+    text-align: center;
+    color: #675D50; 
+}
+
+.quienes-somos-texto {
+    margin-left: 40px;
+    width: 40%;
+    flex-wrap: wrap;
+    color: rgb(0, 53, 6);
+}
+
+.quienes-somos .flex-contacto-img {
+    width: 50%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.beneficios {
+    padding: 60px 30px;
+    background-color: #383228;
+    
+}
+
+.beneficios h2 {
+    font-size: 230%;
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+    justify-content: center;
+    text-align: center;
+    color: #F3DEBA; 
+}
+
+.beneficios-columnas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.beneficio-pecan {
+    width: 23%;
+    padding: 40px;
+    margin: 0px 0px 60px 10px;
+    border-radius: 10px;
+    border: solid 10px #f2e7d4; 
+    background-color: #dac9b1;
+}
+
+
+
+/* PRODUCTOS */
+
+.productos {
+    padding: 80px;
+    background-color: #F3DEBA;
+}
+
+.productos h2 {
+    font-size: 230%;
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+    justify-content: center;
+    text-align: center;
+    color: #383228
+}
+
+.productos li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.cantidades-productos {
+    color: #6c6558;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACTO */
+
+.contacto {
+    padding: 40px;
+    background-color: #ABC4AA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contacto .flex-contacto-img {
+    display: flex;    
+}
+
+.contacto h2 { 
+    font-size: 230%;
+    padding: 40px;
+    text-align: center;
+    color: #383228;
+    width: 100%;
+}
+
+#img-contacto {
+    width: 40%;
+    margin: 45px;
+    display: flex;
+}
+
+.contacto-form {
+    box-sizing: border-box;
+    display: flex;
+    padding: 80px;
+    border-radius: 10%;
+    background-color: #F3DEBA;
+    width: 60%;
+}
+
+input {
+    width: 100%;
+    border-style: none;
+    margin: 10px 0px 18px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    box-sizing: border-box;
+    border-style: none;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    resize: none;
+}
+
+button {
+    text-align: center;
+    border-style: none;
+    background-color: #383228;
+    color: #F3DEBA;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #F3DEBA;
+    color: #675D50;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer p{
+    margin: 10px;
+}
+
